@@ -11,14 +11,6 @@ const todoSchema = new mongoose.Schema(
       ref: "User",
       required: true,
     },
-    createdBy: {
-      type: String,
-      required: true,
-    },
-    deadline: {
-      type: String,
-      required: true,
-    },
   },
   {
     timestamps: true,
